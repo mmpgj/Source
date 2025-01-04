@@ -14,10 +14,10 @@
             "search": {
                 "url": "https://hikaritv.xyz/search?keyword=",
                 "parameter": "keyword",
-                "documentSelector": "div.film_item",
-                "title": "a.dynami-name",
+                "documentSelector": "a.film-poster-ahref",
+                "title": "a.dynamic-name",
                 "image": {
-                    "url": "scr.jpg",
+                    "url": "img.film-poster-img ls-is-cached lazyloaded",
                     "attribute": "scr"
              },
                 "href": "a"
