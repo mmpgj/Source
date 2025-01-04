@@ -17,15 +17,15 @@
                 "documentSelector": "h2.cat-heading",
                 "title": "h2.cat-heading",
                 "image": {
-                    "url": "img",
-                    "attribute": "src"
+                    "url": "scr.jpg",
+                    "attribute": "a"
              },
                 "href": "a"
             },
             "featured": {
                 "url": "https://hikaritv.xyz/recently-updated",
-                "documentSelector": "div.chart.bc1",
-                "title": "a.c",
+                "documentSelector": "a.dynamic-name",
+                "title": "a.href",
                 "image": {
                     "url": "img",
                     "attribute": "src"
