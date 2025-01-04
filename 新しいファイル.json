@@ -14,7 +14,7 @@
             "search": {
                 "url": "https://hikaritv.xyz/search?keyword=",
                 "parameter": "keyword",
-                "documentSelector": "div.film-detail",
+                "documentSelector": "div.flw-item",
                 "title": "a.dynamic-name",
                 "image": {
                     "url": "img.film-poster-img ls-is-cached lazyloaded",
