@@ -14,8 +14,8 @@
             "search": {
                 "url": "https://hikaritv.xyz/search?keyword=",
                 "parameter": "keyword",
-                "documentSelector": "h2.cat-heading",
-                "title": "h2.cat-heading",
+                "documentSelector": "a.dynamic-name",
+                "title": "a.href",
                 "image": {
                     "url": "scr.jpg",
                     "attribute": "a"
