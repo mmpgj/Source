@@ -1,0 +1,52 @@
+{
+    "name": "Hikari",
+    "version": "1.0.0",
+    "author": {
+        "name": "tokumei",
+        "website": "https://github.com/mmpgj"
+    },
+    "iconURL": "https://hikaritv.xyz/assest/images/logo.png",
+    "stream": "MP4",
+    "language": "EN",
+    "extractor": "normal",
+    "module": [
+        {
+            "search": {
+                "url": "https://hikaritv.xyz/search?keyword=",
+                "parameter": "keyword",
+                "documentSelector": "div.film_list-wrap div.flw-item",
+                "title": "a.cona",
+                "image": {
+                    "url": "img",
+                    "attribute": "src"
+             },
+                "href": "a"
+            },
+            "featured": {
+                "url": "https://hikaritv.xyz/recently-updated",
+                "documentSelector": "div.chart.bc1",
+                "title": "a.c",
+                "image": {
+                    "url": "img",
+                    "attribute": "src"
+                },
+                "href": "a"
+            },
+            "details": {
+                "baseURL": "https://hikaritv.xyz/",
+                "aliases": {
+                    "selector": "",
+                    "attribute": ""
+                },
+                "synopsis": "div.infodes2 entry-content entry-content-single",
+                "airdate": "",
+                "stars": ""
+            },
+            "episodes": {
+                "selector": "div.infoepbox a",
+                "order": "reversed",
+                "pattern": ""
+            }
+        }
+    ]
+}
