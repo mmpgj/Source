@@ -14,7 +14,7 @@
             "search": {
                 "url": "https://hikaritv.xyz/search?keyword=",
                 "parameter": "keyword",
-                "documentSelector": "href",
+                "documentSelector": "a",
                 "title": "a.cona",
                 "image": {
                     "url": "img",
