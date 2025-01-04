@@ -14,11 +14,11 @@
             "search": {
                 "url": "https://hikaritv.xyz/search?keyword=",
                 "parameter": "keyword",
-                "documentSelector": "h2.cat-heading",
+                "documentSelector": "div.film_list-wrap",
                 "title": "a.dynami-name",
                 "image": {
-                    "url": "jpg",
-                    "attribute": "a"
+                    "url": "scr.jpg",
+                    "attribute": "scr"
              },
                 "href": "a"
             },
