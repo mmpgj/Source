@@ -17,7 +17,7 @@
                 "documentSelector": "img.film-poster-img ls-is-cached lazyloaded",
                 "title": "a.dynami-name",
                 "image": {
-                    "url": "scr.jpg",
+                    "url": "jpg",
                     "attribute": "a"
              },
                 "href": "a"
